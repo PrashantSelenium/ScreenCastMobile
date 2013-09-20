@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.merck.mobileweb.DriverScript">
+      <class name="com.mobile.mobileweb.DriverScript">
         <methods>
+          <include name="setUp"/>
           <include name="testCaptureScreen"/>
         </methods>
-      </class> <!-- com.merck.mobileweb.DriverScript -->
+      </class> <!-- com.mobile.mobileweb.DriverScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
